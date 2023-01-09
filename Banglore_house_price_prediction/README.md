@@ -1,6 +1,8 @@
 # Banglore House Predictions:
 
-This is one of the guided projects. The main aim of this project is to find the price for a home in Banglore given its Location, BHK size, Total square feet area and number of bathrooms. Following are the steps undertaken:
+*This is one of the guided projects. This project is in the Machine learning tutorial series on Codebasics channel.*
+
+The main aim of this project is to find the price for a home in Banglore given its Location, BHK size, Total square feet area and number of bathrooms. Following are the steps undertaken:
 
 1. **Preprocessing the data**: Data cleaning, outlier detection, dimensionality reduction.
 2. **Model building**: After the preprocessing and splitting the data in train test split it is time to search the Best Model this is done by gridSearchCV in this project, this approach isn't just used to find the best model but also is used for hyper parameter tuning i.e. finding the best parameter.
