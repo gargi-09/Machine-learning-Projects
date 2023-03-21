@@ -1,0 +1,10 @@
+body {
+    background-color: #8e9cd6;
+  }
+  
+  div[data-testid="stHorizontalBlock"] > div:first-of-type {
+    column-rule-color: aliceblue;
+    background-color:#9FA4C4;
+  }
+
+  
