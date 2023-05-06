@@ -1,1 +1,2 @@
-
+# Wine Quality Rating
+As a machine learning project, I developed a wine quality rating system using an ML algorithm. The project aimed to predict the quality of wine based on its physicochemical properties. For this, I used a dataset containing wine samples with different quality ratings. I employed a supervised learning algorithm to train the model, and then used the trained model to predict the quality of new wine samples. The model gave  approximately 66% accuracy.Later on, to make the project more user friendly I created a frontend using streamlit.
