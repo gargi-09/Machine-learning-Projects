@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 import joblib
-model = joblib.load(open("classifier_model.joblib", "rb"))
+model = joblib.load(open("classifier_model.pkl", "rb"))
 def predict_func(doc):
     results = model.predict([doc])
     return results
