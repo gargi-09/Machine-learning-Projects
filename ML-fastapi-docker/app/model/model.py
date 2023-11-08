@@ -11,4 +11,4 @@ with open(f"{BASE_DIR}/logistic_model.pkl","rb") as f:
 def predict_pipe(doc):
     pred = model.predict([doc])
     return pred[0]
-print(predict_pipe([0,0,1,0,5849,0.0,127.0,360.0,1,1,0,1]))
+# print(predict_pipe([0,0,1,0,5849,0.0,127.0,360.0,1,1,0,1]))
