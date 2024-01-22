@@ -20,7 +20,7 @@ def make_radio(cols):
     values = []
     for col,opt in cols.items():
         
-        res = st.radio(col,opt)
+        res = st.radio(col,opt,index=None)
         values.append(res)
     return values
 
@@ -66,6 +66,6 @@ def main():
                           hover_data='Classes',
                           title="Probability distribution")
             st.plotly_chart(fig,use_container_width=True)
-        
+            st.write(f"Confidence : {round(np.max(proba),0)}")
 if __name__=='__main__':
     main()
