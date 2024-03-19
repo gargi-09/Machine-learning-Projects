@@ -6,7 +6,7 @@ import numpy as np
 
 import plotly.express as pex
 
-pipe_lr = joblib.load(open("logistic_model.pkl","rb"))
+pipe_lr = joblib.load(open("Home_loan_approval/App/logistic_model.pkl","rb"))
 
 def predict_class(doc):
     results = pipe_lr.predict(doc)
